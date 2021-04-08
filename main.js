@@ -1,6 +1,6 @@
 const config = require('config')
 
-const app = require('./src/app')
+const app = require('./app')
 
 const port = process.env.PORT || config.get('port')
 
