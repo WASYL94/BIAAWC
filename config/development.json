@@ -6,5 +6,9 @@
         "options": {
             "useUnifiedTopology": true
         }
+    },
+    "mailGun": {
+        "api_key": "a09d6718-8997e1d0",
+        "domain": "sandboxac57197ce33d44c49c783ad50f4f51d6.mailgun.org"
     }
 }
