@@ -12,9 +12,14 @@ class feedParser {
         const promieses = []
 
         for (let url of urls) {
-            promieses.push(this.parser.parseURL(url))
-        }
+            if(url === null){
 
+            }
+            else
+            {
+                promieses.push(this.parser.parseURL(url))
+            }
+        }
         return Promise.all(promieses)        
     }
 }

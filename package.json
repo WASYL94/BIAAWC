@@ -10,9 +10,11 @@
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "jest": "^26.6.3",
+    "mailbuilder": "^2.1.2",
     "mailgun-js": "^0.22.0",
     "mjml": "^4.9.0",
     "mongodb": "^3.6.4",
+    "node-fetch": "^2.6.1",
     "rss-parser": "^3.12.0",
     "supertest": "^6.1.3"
   },

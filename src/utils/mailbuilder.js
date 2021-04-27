@@ -1,4 +1,4 @@
-const mjml2html = require( 'mjml')
+const mjml2html = require( 'mjml');
 
 class MailBuilder{
     
@@ -7,7 +7,7 @@ class MailBuilder{
     }
 
     build(feed){
-        const htmlOutput = mjml2html(`
+        return mjml2html(`
         <mjml>
         <mj-body>
         <mj-section>
@@ -26,8 +26,10 @@ class MailBuilder{
         </mj-section>
         </mj-body>
         </mjml>
-        `, options)
-    }   
-}
+        `);
+        //console.log(htmlOutput);
+        //return htmlOutput;
+    };  
+};
 
-module.exports = MailBuilder
+module.exports = MailBuilder;
