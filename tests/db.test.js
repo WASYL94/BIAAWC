@@ -41,15 +41,6 @@ describe('Test db interface', () => {
 			throw(e)
 		}
 	})
-	
-	test('It should find data', async () => {
-		try {
-			const data = await db.find('rss', { email: { $eq: 'test@test.pl' } })
-      		expect(data).toMatchObject({ email: 'test@test.pl', rss: 'rss.xml' });
-		} catch (e) {
-			throw(e)
-		}
-	})
 
 	test('It should update value', async () => {
 		try {

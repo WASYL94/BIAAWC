@@ -61,7 +61,7 @@ saveBtn.onclick = async function() {
 
 previewBtn.onclick = async function() {
 
-    var url = "http://localhost:8080/api/v1/mail";
+    var url = "/api/v1/mail";
 
     fetch(url, {
         headers: {
